@@ -11,4 +11,8 @@ public class DVVLib {
     public static func add(_ a: Int, _ b: Int) -> Int {
         return a + b
     }
+    
+    public static func sub(_ a: Int, _ b: Int) -> Int {
+        return a - b
+    }
 }
