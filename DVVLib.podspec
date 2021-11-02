@@ -21,7 +21,7 @@ This CocoaPods library helps you perform calculation.
   spec.ios.deployment_target = "12.1"
   spec.swift_version = "4.2"
 
-  spec.source        = { :git => "https://github.com/Pistollo3/DVVLib.git", :tag => "#{spec.version}" }
+  spec.source        = { :git => "https://github.com/Pistollo3/DVVLib.git", :branch => "main", :tag => "#{spec.version}" }
   spec.source_files  = "DVVLib/**/*.{h,m,swift}"
 
 end
