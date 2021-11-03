@@ -1,0 +1,33 @@
+PODS:
+  - lottie-ios (3.2.3)
+  - VFGMVA10Foundation (1.26.0):
+    - VFGMVA10Foundation/VFGMVA10Media (= 1.26.0)
+    - VFGMVA10Foundation/VFGMVA10Splash (= 1.26.0)
+    - VFGMVA10Foundation/VFGTOBI (= 1.26.0)
+  - VFGMVA10Foundation/VFGMVA10Media (1.26.0)
+  - VFGMVA10Foundation/VFGMVA10Splash (1.26.0):
+    - lottie-ios
+  - VFGMVA10Foundation/VFGTOBI (1.26.0):
+    - lottie-ios
+  - VFGMVA10Login (1.21.0):
+    - VFGMVA10Foundation
+
+DEPENDENCIES:
+  - VFGMVA10Foundation
+  - VFGMVA10Login
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - lottie-ios
+  https://github.vodafone.com/VFGroup-MyVodafone-OnePlatform/iOS-Stage-CocoaPods.git:
+    - VFGMVA10Foundation
+    - VFGMVA10Login
+
+SPEC CHECKSUMS:
+  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
+  VFGMVA10Foundation: b789d9c88017ed74c41db57aa7ef3b645e5f8b7a
+  VFGMVA10Login: 6e4ed493345b99f402b4d6b91db57faf9d684cbe
+
+PODFILE CHECKSUM: 05a0d0fbbd0a05eef56d7a9a8cad6a53adcb44e9
+
+COCOAPODS: 1.10.0
