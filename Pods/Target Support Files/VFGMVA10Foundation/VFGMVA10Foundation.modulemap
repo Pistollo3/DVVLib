@@ -1,6 +1,0 @@
-framework module VFGMVA10Foundation {
-  umbrella header "VFGMVA10Foundation-umbrella.h"
-
-  export *
-  module * { export * }
-}

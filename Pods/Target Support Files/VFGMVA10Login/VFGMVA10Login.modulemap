@@ -1,6 +1,0 @@
-framework module VFGMVA10Login {
-  umbrella header "VFGMVA10Login-umbrella.h"
-
-  export *
-  module * { export * }
-}
