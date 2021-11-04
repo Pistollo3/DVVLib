@@ -6,19 +6,8 @@
 //
 
 import Foundation
-import VFGMVA10Foundation
-import VFGMVA10Login
 
-public class DVVLib: VFGLoginManagerDelegate {
-    public func present(viewController: UIViewController) {
-        let mainStoryboard = UIStoryboard(name: "AfterLoginVC", bundle: nil)
-        self.present(viewController: mainStoryboard.instantiateInitialViewController()!)
-    }
-    
-    public func onFinish(result: VFGLoginResult, dismiss viewController: UIViewController?) {
-        let mainStoryboard = UIStoryboard(name: "AfterLoginVC", bundle: nil)
-        self.present(viewController: mainStoryboard.instantiateInitialViewController()!)
-    }
+public class DVVLib {
     
     public static let shared = DVVLib()
     public static func add(_ a: Int, _ b: Int) -> Int {
@@ -30,6 +19,6 @@ public class DVVLib: VFGLoginManagerDelegate {
     }
     
     public static func doLogin() {
-        _ = VFGLoginManager(softLoginProtocol: VFGSoftLogin(), upfrontLoginProtocol: nil, seamlessLoginProtocol: nil, fixedLineLoginProtocol: nil, loginAccountsListProtocol: nil, loginManagerDelegate: self.shared, isTobiEnabled: false)
+        
     }
 }
