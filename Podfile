@@ -13,6 +13,8 @@ target 'DVVLib' do
   #pod 'VFGMVA10Foundation'
   #pod 'VFGMVA10Login'
   pod 'MyPod'
+  pod 'VFGMVA10Foundation'
+  pod 'VFGMVA10Login'
 
   target 'DVVLibTests' do
     # Pods for testing
