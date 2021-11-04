@@ -7,7 +7,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "DVVLib"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.8"
   spec.summary      = "A CocoaPods library written in Swift"
 
   spec.description  = <<-DESC
@@ -24,5 +24,6 @@ This CocoaPods library helps you perform calculation.
   spec.source        = { :git => "https://github.com/Pistollo3/DVVLib.git", :branch => "main", :tag => "#{spec.version}" }
   spec.source_files  = "DVVLib/**/*.{h,m,swift}"
   spec.dependency "MyPod"
+  spec.dependency "VFGMVA10Foundation"
 
 end
