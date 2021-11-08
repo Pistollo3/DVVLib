@@ -15,9 +15,8 @@ public class DemoComponentEntry: NSObject, VFGComponentEntry {
     }
 
     public var cardView: UIView? {
-        let bundle = Bundle(for: type(of: self))
-        let nib = UINib(nibName: "ComponentCardView", bundle: bundle)
-        return nib.instantiate(withOwner: self,options: nil).first as? UIView
+        let bundle = Bundle(for: self.classForCoder)
+        return bundle.loadNibNamed("ComponentCardView", owner: self, options: nil)?.first as? UIView
     }
 
     public var cardEntryViewController: UIViewController? {
