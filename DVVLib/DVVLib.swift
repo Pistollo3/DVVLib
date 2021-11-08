@@ -7,6 +7,7 @@
 
 import Foundation
 import VFGMVA10Login
+import MyPod
 
 public class DVVLib: VFGLoginManagerDelegate {
     public static var shared = DVVLib()

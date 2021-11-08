@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		7A7DAB36D5818812A9613F87 /* Pods_DVVLib_DVVLibTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271553ECF7644AE7717A63EE /* Pods_DVVLib_DVVLibTests.framework */; };
 		88E7ACD50299069FC2F0254D /* Pods_DVVLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180794D6A8EB9C13A85399CF /* Pods_DVVLib.framework */; };
+		B95381EC27393D8E0030D331 /* DemoComponentEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95381EB27393D8E0030D331 /* DemoComponentEntry.swift */; };
+		B95381F027393E270030D331 /* ComponentCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B95381EF27393E270030D331 /* ComponentCardView.xib */; };
+		B95381F327393E580030D331 /* ComponentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95381F127393E580030D331 /* ComponentViewController.swift */; };
+		B95381F427393E580030D331 /* ComponentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B95381F227393E580030D331 /* ComponentViewController.xib */; };
 		B9636272273132BD009CED2E /* DVVLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9636268273132BC009CED2E /* DVVLib.framework */; };
 		B9636277273132BD009CED2E /* DVVLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9636276273132BD009CED2E /* DVVLibTests.swift */; };
 		B9636279273132BD009CED2E /* DVVLib.h in Headers */ = {isa = PBXBuildFile; fileRef = B963626B273132BC009CED2E /* DVVLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,6 +38,10 @@
 		271553ECF7644AE7717A63EE /* Pods_DVVLib_DVVLibTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DVVLib_DVVLibTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E962A562DCEC9158BF32B4A /* Pods-DVVLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVVLib.release.xcconfig"; path = "Target Support Files/Pods-DVVLib/Pods-DVVLib.release.xcconfig"; sourceTree = "<group>"; };
 		71BD745827FDF443D43420AB /* Pods-DVVLib-DVVLibTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVVLib-DVVLibTests.release.xcconfig"; path = "Target Support Files/Pods-DVVLib-DVVLibTests/Pods-DVVLib-DVVLibTests.release.xcconfig"; sourceTree = "<group>"; };
+		B95381EB27393D8E0030D331 /* DemoComponentEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoComponentEntry.swift; sourceTree = "<group>"; };
+		B95381EF27393E270030D331 /* ComponentCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComponentCardView.xib; sourceTree = "<group>"; };
+		B95381F127393E580030D331 /* ComponentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentViewController.swift; sourceTree = "<group>"; };
+		B95381F227393E580030D331 /* ComponentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComponentViewController.xib; sourceTree = "<group>"; };
 		B9636268273132BC009CED2E /* DVVLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DVVLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B963626B273132BC009CED2E /* DVVLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVVLib.h; sourceTree = "<group>"; };
 		B963626C273132BC009CED2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,6 +113,10 @@
 				B9636284273134BB009CED2E /* DVVLib.swift */,
 				B9B6198727328B69003B1219 /* AfterLoginVC.storyboard */,
 				B9B6198927328B95003B1219 /* AfterLoginVC.swift */,
+				B95381EB27393D8E0030D331 /* DemoComponentEntry.swift */,
+				B95381EF27393E270030D331 /* ComponentCardView.xib */,
+				B95381F127393E580030D331 /* ComponentViewController.swift */,
+				B95381F227393E580030D331 /* ComponentViewController.xib */,
 			);
 			path = DVVLib;
 			sourceTree = "<group>";
@@ -222,6 +234,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95381F427393E580030D331 /* ComponentViewController.xib in Resources */,
+				B95381F027393E270030D331 /* ComponentCardView.xib in Resources */,
 				B9B6198827328B69003B1219 /* AfterLoginVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,7 +318,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95381EC27393D8E0030D331 /* DemoComponentEntry.swift in Sources */,
 				B9636285273134BB009CED2E /* DVVLib.swift in Sources */,
+				B95381F327393E580030D331 /* ComponentViewController.swift in Sources */,
 				B9B6198A27328B95003B1219 /* AfterLoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -387,6 +404,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -396,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -444,6 +463,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -454,6 +474,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 11943977C8969CDD9F975B75 /* Pods-DVVLib.debug.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -461,8 +482,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MyPod\"/**",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/VFGMVA10Foundation\"/**",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/VFGMVA10Login\"/**",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios\"/**",
+				);
 				INFOPLIST_FILE = DVVLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,9 +500,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = co.danieleviscuso.DVVLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -481,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5E962A562DCEC9158BF32B4A /* Pods-DVVLib.release.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -490,6 +521,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = DVVLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -498,8 +530,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = co.danieleviscuso.DVVLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
