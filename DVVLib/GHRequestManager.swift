@@ -20,7 +20,7 @@ struct UserData: Codable {
 
 
 public class GHGoogleManager {
-    public let shared = GHGoogleManager()
+    public static var shared = GHGoogleManager()
     
     private let myNetworkClient = VFGNetworkClient(baseURL: " https://gorest.co.in/public/v1/")
     
