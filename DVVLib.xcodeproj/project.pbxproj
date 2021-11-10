@@ -20,6 +20,7 @@
 		B98CC225273A8BC1006CE53A /* GHRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98CC224273A8BC1006CE53A /* GHRequestManager.swift */; };
 		B9B6198827328B69003B1219 /* AfterLoginVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B6198727328B69003B1219 /* AfterLoginVC.storyboard */; };
 		B9B6198A27328B95003B1219 /* AfterLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B6198927328B95003B1219 /* AfterLoginVC.swift */; };
+		B9C1EC99273BCDEF00293F4E /* GHLocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C1EC98273BCDEF00293F4E /* GHLocalizationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B98CC224273A8BC1006CE53A /* GHRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHRequestManager.swift; sourceTree = "<group>"; };
 		B9B6198727328B69003B1219 /* AfterLoginVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AfterLoginVC.storyboard; sourceTree = "<group>"; };
 		B9B6198927328B95003B1219 /* AfterLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterLoginVC.swift; sourceTree = "<group>"; };
+		B9C1EC98273BCDEF00293F4E /* GHLocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHLocalizationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				B95381F127393E580030D331 /* ComponentViewController.swift */,
 				B95381F227393E580030D331 /* ComponentViewController.xib */,
 				B98CC224273A8BC1006CE53A /* GHRequestManager.swift */,
+				B9C1EC98273BCDEF00293F4E /* GHLocalizationManager.swift */,
 			);
 			path = DVVLib;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B95381EC27393D8E0030D331 /* DemoComponentEntry.swift in Sources */,
+				B9C1EC99273BCDEF00293F4E /* GHLocalizationManager.swift in Sources */,
 				B9636285273134BB009CED2E /* DVVLib.swift in Sources */,
 				B95381F327393E580030D331 /* ComponentViewController.swift in Sources */,
 				B98CC225273A8BC1006CE53A /* GHRequestManager.swift in Sources */,
