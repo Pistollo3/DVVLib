@@ -176,14 +176,12 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/GigaHubC/GigaHubC.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MyPod/MyPod.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/VFGMVA10Foundation/VFGMVA10Foundation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/VFGMVA10Login/VFGMVA10Login.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/GigaHubC/GigaHubC.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MyPod/MyPod.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/VFGMVA10Foundation/VFGMVA10Foundation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/VFGMVA10Login/VFGMVA10Login.framework"
