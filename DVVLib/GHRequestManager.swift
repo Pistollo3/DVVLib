@@ -9,6 +9,7 @@
 
 import Foundation
 import VFGMVA10Foundation
+import GigaHubC
 
 public typealias HTTPHeaders = [String: String]
 public typealias VFGParameters = [String: Any]
@@ -45,6 +46,9 @@ public class GHGoogleManager {
                 print("ERROR!! \(error)")
             }
           }
+        
+        let result = mySampleFunc()
+        print("RESULT! \(result)")
     }
     
     

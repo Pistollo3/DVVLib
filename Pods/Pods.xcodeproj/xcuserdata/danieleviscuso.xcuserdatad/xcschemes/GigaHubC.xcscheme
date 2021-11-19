@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "37DE3410052EE916CEF79C784FD54973"
-               BuildableName = "VFGMVA10Login.framework"
-               BlueprintName = "VFGMVA10Login"
+               BlueprintIdentifier = "D67151F180DC4C9939A24D3A72EFE474"
+               BuildableName = "GigaHubC.framework"
+               BlueprintName = "GigaHubC"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
