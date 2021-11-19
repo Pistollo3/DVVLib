@@ -24,7 +24,7 @@ This CocoaPods library helps you perform calculation.
   spec.source        = { :git => "https://github.com/Pistollo3/DVVLib.git", :branch => "main", :tag => "#{spec.version}" }
   spec.source_files  = "DVVLib/**/*.{h,m,swift,xib,storyboard}"
   spec.dependency "MyPod"
-  spec.dependency "VFGMVA10Foundation"
+  spec.dependency "VFGMVA10Foundation", "~> 1.26.0"
   spec.dependency "VFGMVA10Login"
 
 end
