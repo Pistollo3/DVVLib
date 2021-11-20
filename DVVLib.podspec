@@ -7,7 +7,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "DVVLib"
-  spec.version      = "0.3.4"
+  spec.version      = "0.3.5"
   spec.summary      = "A CocoaPods library written in Swift"
 
   spec.description  = <<-DESC

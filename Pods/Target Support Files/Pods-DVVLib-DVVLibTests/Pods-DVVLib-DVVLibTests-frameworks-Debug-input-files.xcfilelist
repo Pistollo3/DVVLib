@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-DVVLib-DVVLibTests/Pods-DVVLib-DVVLibTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/GigaHubC/GigaHubC.framework
 ${BUILT_PRODUCTS_DIR}/MyPod/MyPod.framework
 ${BUILT_PRODUCTS_DIR}/VFGMVA10Foundation/VFGMVA10Foundation.framework
 ${BUILT_PRODUCTS_DIR}/VFGMVA10Login/VFGMVA10Login.framework

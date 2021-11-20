@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7A7DAB36D5818812A9613F87 /* Pods_DVVLib_DVVLibTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271553ECF7644AE7717A63EE /* Pods_DVVLib_DVVLibTests.framework */; };
 		88E7ACD50299069FC2F0254D /* Pods_DVVLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180794D6A8EB9C13A85399CF /* Pods_DVVLib.framework */; };
+		B93E2D4427498EA100CCD2CC /* SuperWifi.h in Headers */ = {isa = PBXBuildFile; fileRef = B93E2D4227498EA100CCD2CC /* SuperWifi.h */; };
+		B93E2D4527498EA100CCD2CC /* SuperWifi.c in Sources */ = {isa = PBXBuildFile; fileRef = B93E2D4327498EA100CCD2CC /* SuperWifi.c */; };
 		B95381EC27393D8E0030D331 /* DemoComponentEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95381EB27393D8E0030D331 /* DemoComponentEntry.swift */; };
 		B95381F027393E270030D331 /* ComponentCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B95381EF27393E270030D331 /* ComponentCardView.xib */; };
 		B95381F327393E580030D331 /* ComponentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95381F127393E580030D331 /* ComponentViewController.swift */; };
@@ -40,6 +42,8 @@
 		271553ECF7644AE7717A63EE /* Pods_DVVLib_DVVLibTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DVVLib_DVVLibTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E962A562DCEC9158BF32B4A /* Pods-DVVLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVVLib.release.xcconfig"; path = "Target Support Files/Pods-DVVLib/Pods-DVVLib.release.xcconfig"; sourceTree = "<group>"; };
 		71BD745827FDF443D43420AB /* Pods-DVVLib-DVVLibTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVVLib-DVVLibTests.release.xcconfig"; path = "Target Support Files/Pods-DVVLib-DVVLibTests/Pods-DVVLib-DVVLibTests.release.xcconfig"; sourceTree = "<group>"; };
+		B93E2D4227498EA100CCD2CC /* SuperWifi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperWifi.h; sourceTree = "<group>"; };
+		B93E2D4327498EA100CCD2CC /* SuperWifi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SuperWifi.c; sourceTree = "<group>"; };
 		B95381EB27393D8E0030D331 /* DemoComponentEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoComponentEntry.swift; sourceTree = "<group>"; };
 		B95381EF27393E270030D331 /* ComponentCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComponentCardView.xib; sourceTree = "<group>"; };
 		B95381F127393E580030D331 /* ComponentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 				B95381F227393E580030D331 /* ComponentViewController.xib */,
 				B98CC224273A8BC1006CE53A /* GHRequestManager.swift */,
 				B9C1EC98273BCDEF00293F4E /* GHLocalizationManager.swift */,
+				B93E2D4227498EA100CCD2CC /* SuperWifi.h */,
+				B93E2D4327498EA100CCD2CC /* SuperWifi.c */,
 			);
 			path = DVVLib;
 			sourceTree = "<group>";
@@ -153,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9636279273132BD009CED2E /* DVVLib.h in Headers */,
+				B93E2D4427498EA100CCD2CC /* SuperWifi.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +216,7 @@
 				TargetAttributes = {
 					B9636267273132BC009CED2E = {
 						CreatedOnToolsVersion = 12.4;
-						LastSwiftMigration = 1240;
+						LastSwiftMigration = 1250;
 					};
 					B9636270273132BD009CED2E = {
 						CreatedOnToolsVersion = 12.4;
@@ -326,6 +333,7 @@
 			files = (
 				B95381EC27393D8E0030D331 /* DemoComponentEntry.swift in Sources */,
 				B9C1EC99273BCDEF00293F4E /* GHLocalizationManager.swift in Sources */,
+				B93E2D4527498EA100CCD2CC /* SuperWifi.c in Sources */,
 				B9636285273134BB009CED2E /* DVVLib.swift in Sources */,
 				B95381F327393E580030D331 /* ComponentViewController.swift in Sources */,
 				B98CC225273A8BC1006CE53A /* GHRequestManager.swift in Sources */,

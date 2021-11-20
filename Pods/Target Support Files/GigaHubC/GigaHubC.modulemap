@@ -1,0 +1,6 @@
+framework module GigaHubC {
+  umbrella header "GigaHubC-umbrella.h"
+
+  export *
+  module * { export * }
+}
