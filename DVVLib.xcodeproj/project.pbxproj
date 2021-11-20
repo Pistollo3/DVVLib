@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		7A7DAB36D5818812A9613F87 /* Pods_DVVLib_DVVLibTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271553ECF7644AE7717A63EE /* Pods_DVVLib_DVVLibTests.framework */; };
 		88E7ACD50299069FC2F0254D /* Pods_DVVLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180794D6A8EB9C13A85399CF /* Pods_DVVLib.framework */; };
-		B93E2D4427498EA100CCD2CC /* SuperWifi.h in Headers */ = {isa = PBXBuildFile; fileRef = B93E2D4227498EA100CCD2CC /* SuperWifi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B93E2D4427498EA100CCD2CC /* SuperWifi.h in Headers */ = {isa = PBXBuildFile; fileRef = B93E2D4227498EA100CCD2CC /* SuperWifi.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B93E2D4527498EA100CCD2CC /* SuperWifi.c in Sources */ = {isa = PBXBuildFile; fileRef = B93E2D4327498EA100CCD2CC /* SuperWifi.c */; };
 		B95381EC27393D8E0030D331 /* DemoComponentEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95381EB27393D8E0030D331 /* DemoComponentEntry.swift */; };
 		B95381F027393E270030D331 /* ComponentCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B95381EF27393E270030D331 /* ComponentCardView.xib */; };
