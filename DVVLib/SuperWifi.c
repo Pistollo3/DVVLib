@@ -6,6 +6,7 @@
 //
 
 #include "SuperWifi.h"
+#include "gh.h"
 
 int getSWConnectionState() {
     return mySampleFunc() + 1;
