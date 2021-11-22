@@ -15,7 +15,7 @@
             <rect key="frame" x="0.0" y="0.0" width="400" height="400"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icInternetGlobeCountryWhite" translatesAutoresizingMaskIntoConstraints="NO" id="eOS-2p-JcG">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="asset1" translatesAutoresizingMaskIntoConstraints="NO" id="eOS-2p-JcG">
                     <rect key="frame" x="10" y="54" width="50" height="50"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="50" id="LTe-ya-IP1"/>
@@ -30,7 +30,7 @@
                 </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <color key="backgroundColor" systemColor="systemGray2Color"/>
             <constraints>
                 <constraint firstItem="eOS-2p-JcG" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="Axs-2E-DJX"/>
                 <constraint firstItem="eOS-2p-JcG" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="Ua4-hf-fTA"/>
@@ -45,9 +45,9 @@
         </view>
     </objects>
     <resources>
-        <image name="icInternetGlobeCountryWhite" width="26" height="26"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <image name="asset1" width="26" height="26"/>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

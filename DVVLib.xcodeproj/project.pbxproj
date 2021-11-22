@@ -28,6 +28,7 @@
 		B9CDEB21274BD92F00654315 /* SubComponentEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CDEB20274BD92F00654315 /* SubComponentEntry.swift */; };
 		B9CDEB23274BDAE600654315 /* SubComponentCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9CDEB22274BDAE600654315 /* SubComponentCardView.xib */; };
 		B9CDEB25274BDFA600654315 /* SubComponentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CDEB24274BDFA600654315 /* SubComponentCardView.swift */; };
+		B9CDEB28274BE51B00654315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CDEB27274BE51B00654315 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		B9CDEB20274BD92F00654315 /* SubComponentEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubComponentEntry.swift; sourceTree = "<group>"; };
 		B9CDEB22274BDAE600654315 /* SubComponentCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubComponentCardView.xib; sourceTree = "<group>"; };
 		B9CDEB24274BDFA600654315 /* SubComponentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubComponentCardView.swift; sourceTree = "<group>"; };
+		B9CDEB27274BE51B00654315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		B963626A273132BC009CED2E /* DVVLib */ = {
 			isa = PBXGroup;
 			children = (
+				B9CDEB26274BE50300654315 /* Resources */,
 				B963626B273132BC009CED2E /* DVVLib.h */,
 				B963626C273132BC009CED2E /* Info.plist */,
 				B9636284273134BB009CED2E /* DVVLib.swift */,
@@ -155,6 +158,14 @@
 				B9636278273132BD009CED2E /* Info.plist */,
 			);
 			path = DVVLibTests;
+			sourceTree = "<group>";
+		};
+		B9CDEB26274BE50300654315 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9CDEB27274BE51B00654315 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		EFCCF71D2FA177555C5AE97D /* Frameworks */ = {
@@ -266,6 +277,7 @@
 				B9CDEB23274BDAE600654315 /* SubComponentCardView.xib in Resources */,
 				B95381F027393E270030D331 /* ComponentCardView.xib in Resources */,
 				B9B6198827328B69003B1219 /* AfterLoginVC.storyboard in Resources */,
+				B9CDEB28274BE51B00654315 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

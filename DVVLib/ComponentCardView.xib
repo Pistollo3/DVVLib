@@ -21,7 +21,7 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vodafoneLogo" translatesAutoresizingMaskIntoConstraints="NO" id="C10-0v-xBd">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="asset2" translatesAutoresizingMaskIntoConstraints="NO" id="C10-0v-xBd">
                     <rect key="frame" x="10" y="10" width="50" height="50"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="WKP-aX-PZC"/>
@@ -45,7 +45,7 @@
         </view>
     </objects>
     <resources>
-        <image name="vodafoneLogo" width="86" height="86"/>
+        <image name="asset2" width="86" height="86"/>
         <namedColor name="VFGVodafonePlatinum">
             <color red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
