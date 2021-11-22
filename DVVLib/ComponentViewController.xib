@@ -11,6 +11,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ComponentViewController" customModule="DVVLib" customModuleProvider="target">
             <connections>
+                <outlet property="btn" destination="vvO-LT-Fxr" id="1oi-Ad-4uB"/>
+                <outlet property="label" destination="UAu-Hr-0Be" id="VS4-Wn-sKr"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,15 +21,15 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello and welcome to our demo component!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAu-Hr-0Be">
-                    <rect key="frame" x="38.5" y="437.5" width="337" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have successfully performed onboarding!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAu-Hr-0Be">
+                    <rect key="frame" x="10" y="436.5" width="394" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvO-LT-Fxr">
-                    <rect key="frame" x="158" y="468.5" width="98" height="30"/>
-                    <state key="normal" title="Make request!"/>
+                    <rect key="frame" x="149" y="469.5" width="116" height="30"/>
+                    <state key="normal" title="Start onboarding"/>
                     <connections>
                         <action selector="makeRequest" destination="-1" eventType="touchUpInside" id="yF5-br-jVf"/>
                     </connections>
@@ -39,6 +41,8 @@
                 <constraint firstItem="UAu-Hr-0Be" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="2mN-9h-GeF"/>
                 <constraint firstItem="vvO-LT-Fxr" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="izm-9m-ZEL"/>
                 <constraint firstItem="UAu-Hr-0Be" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ja9-tL-vnr"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="UAu-Hr-0Be" secondAttribute="trailing" constant="10" id="nHd-yw-bY6"/>
+                <constraint firstItem="UAu-Hr-0Be" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="nNj-fI-u6C"/>
                 <constraint firstItem="vvO-LT-Fxr" firstAttribute="top" secondItem="UAu-Hr-0Be" secondAttribute="bottom" constant="10" id="nVY-dO-HUd"/>
             </constraints>
             <point key="canvasLocation" x="-78.260869565217391" y="91.741071428571431"/>

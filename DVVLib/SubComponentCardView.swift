@@ -27,6 +27,7 @@ class SubComponentCardView: UIView {
                     self?.topView.isHidden = true
                     self?.bottomView.isHidden = false
                 }
+                self?.isUserInteractionEnabled = val == .dashboard
             }).disposed(by: disposeBag)
     }
 

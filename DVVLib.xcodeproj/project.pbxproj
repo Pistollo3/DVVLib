@@ -29,6 +29,8 @@
 		B9CDEB23274BDAE600654315 /* SubComponentCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9CDEB22274BDAE600654315 /* SubComponentCardView.xib */; };
 		B9CDEB25274BDFA600654315 /* SubComponentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CDEB24274BDFA600654315 /* SubComponentCardView.swift */; };
 		B9CDEB28274BE51B00654315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CDEB27274BE51B00654315 /* Assets.xcassets */; };
+		B9CDEB2A274BF69F00654315 /* SubComponentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9CDEB29274BF69F00654315 /* SubComponentViewController.xib */; };
+		B9CDEB2C274BF70600654315 /* SubComponentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CDEB2B274BF70600654315 /* SubComponentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		B9CDEB22274BDAE600654315 /* SubComponentCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubComponentCardView.xib; sourceTree = "<group>"; };
 		B9CDEB24274BDFA600654315 /* SubComponentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubComponentCardView.swift; sourceTree = "<group>"; };
 		B9CDEB27274BE51B00654315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9CDEB29274BF69F00654315 /* SubComponentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubComponentViewController.xib; sourceTree = "<group>"; };
+		B9CDEB2B274BF70600654315 /* SubComponentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubComponentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,8 @@
 				B9CDEB20274BD92F00654315 /* SubComponentEntry.swift */,
 				B9CDEB22274BDAE600654315 /* SubComponentCardView.xib */,
 				B9CDEB24274BDFA600654315 /* SubComponentCardView.swift */,
+				B9CDEB29274BF69F00654315 /* SubComponentViewController.xib */,
+				B9CDEB2B274BF70600654315 /* SubComponentViewController.swift */,
 			);
 			path = DVVLib;
 			sourceTree = "<group>";
@@ -276,6 +282,7 @@
 				B95381F427393E580030D331 /* ComponentViewController.xib in Resources */,
 				B9CDEB23274BDAE600654315 /* SubComponentCardView.xib in Resources */,
 				B95381F027393E270030D331 /* ComponentCardView.xib in Resources */,
+				B9CDEB2A274BF69F00654315 /* SubComponentViewController.xib in Resources */,
 				B9B6198827328B69003B1219 /* AfterLoginVC.storyboard in Resources */,
 				B9CDEB28274BE51B00654315 /* Assets.xcassets in Resources */,
 			);
@@ -361,6 +368,7 @@
 			files = (
 				B95381EC27393D8E0030D331 /* DemoComponentEntry.swift in Sources */,
 				B9CDEB21274BD92F00654315 /* SubComponentEntry.swift in Sources */,
+				B9CDEB2C274BF70600654315 /* SubComponentViewController.swift in Sources */,
 				B9C1EC99273BCDEF00293F4E /* GHLocalizationManager.swift in Sources */,
 				B93E2D4527498EA100CCD2CC /* SuperWifi.c in Sources */,
 				B97DB290274BB4A400CFA69E /* GHSuperWifiManager.swift in Sources */,
