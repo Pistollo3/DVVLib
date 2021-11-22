@@ -7,7 +7,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "DVVLib"
-  spec.version      = "0.4.3"
+  spec.version      = "0.4.5"
   spec.summary      = "A CocoaPods library written in Swift"
 
   spec.description  = <<-DESC
@@ -27,5 +27,7 @@ This CocoaPods library helps you perform calculation.
   spec.dependency "VFGMVA10Foundation", "~> 1.26.0"
   spec.dependency "VFGMVA10Login"
   spec.dependency "GigaHubC"
+  spec.dependency "RxSwift"
+  spec.dependency "RxCocoa"
 
 end

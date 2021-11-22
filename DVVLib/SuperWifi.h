@@ -9,6 +9,7 @@
 #define SuperWifi_h
 
 #include <stdio.h>
+#include <GigaHubC/gh.h>
 
 int getSWConnectionState(void);
 

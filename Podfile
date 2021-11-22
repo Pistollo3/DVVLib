@@ -14,6 +14,8 @@ target 'DVVLib' do
   pod 'VFGMVA10Foundation'
   pod 'VFGMVA10Login'
   pod 'GigaHubC'
+  pod 'RxSwift'
+  pod 'RxCocoa'
 
   target 'DVVLibTests' do
     # Pods for testing

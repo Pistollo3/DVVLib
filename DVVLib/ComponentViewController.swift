@@ -18,6 +18,7 @@ class ComponentViewController: UIViewController {
 
     @IBAction private func makeRequest() {
         GHGoogleManager.shared.makeRequest()
+        GHSuperWifiManager.shared.startOnboarding()
     }
 
 }
