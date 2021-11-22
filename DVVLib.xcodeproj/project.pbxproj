@@ -25,6 +25,9 @@
 		B9B6198827328B69003B1219 /* AfterLoginVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B6198727328B69003B1219 /* AfterLoginVC.storyboard */; };
 		B9B6198A27328B95003B1219 /* AfterLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B6198927328B95003B1219 /* AfterLoginVC.swift */; };
 		B9C1EC99273BCDEF00293F4E /* GHLocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C1EC98273BCDEF00293F4E /* GHLocalizationManager.swift */; };
+		B9CDEB21274BD92F00654315 /* SubComponentEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CDEB20274BD92F00654315 /* SubComponentEntry.swift */; };
+		B9CDEB23274BDAE600654315 /* SubComponentCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9CDEB22274BDAE600654315 /* SubComponentCardView.xib */; };
+		B9CDEB25274BDFA600654315 /* SubComponentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CDEB24274BDFA600654315 /* SubComponentCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		B9B6198727328B69003B1219 /* AfterLoginVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AfterLoginVC.storyboard; sourceTree = "<group>"; };
 		B9B6198927328B95003B1219 /* AfterLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterLoginVC.swift; sourceTree = "<group>"; };
 		B9C1EC98273BCDEF00293F4E /* GHLocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHLocalizationManager.swift; sourceTree = "<group>"; };
+		B9CDEB20274BD92F00654315 /* SubComponentEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubComponentEntry.swift; sourceTree = "<group>"; };
+		B9CDEB22274BDAE600654315 /* SubComponentCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubComponentCardView.xib; sourceTree = "<group>"; };
+		B9CDEB24274BDFA600654315 /* SubComponentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubComponentCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +141,9 @@
 				B93E2D4327498EA100CCD2CC /* SuperWifi.c */,
 				B97DB28F274BB4A400CFA69E /* GHSuperWifiManager.swift */,
 				B96E1DCF274BB6DD004ACF70 /* ComponentCardView.swift */,
+				B9CDEB20274BD92F00654315 /* SubComponentEntry.swift */,
+				B9CDEB22274BDAE600654315 /* SubComponentCardView.xib */,
+				B9CDEB24274BDFA600654315 /* SubComponentCardView.swift */,
 			);
 			path = DVVLib;
 			sourceTree = "<group>";
@@ -254,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B95381F427393E580030D331 /* ComponentViewController.xib in Resources */,
+				B9CDEB23274BDAE600654315 /* SubComponentCardView.xib in Resources */,
 				B95381F027393E270030D331 /* ComponentCardView.xib in Resources */,
 				B9B6198827328B69003B1219 /* AfterLoginVC.storyboard in Resources */,
 			);
@@ -338,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B95381EC27393D8E0030D331 /* DemoComponentEntry.swift in Sources */,
+				B9CDEB21274BD92F00654315 /* SubComponentEntry.swift in Sources */,
 				B9C1EC99273BCDEF00293F4E /* GHLocalizationManager.swift in Sources */,
 				B93E2D4527498EA100CCD2CC /* SuperWifi.c in Sources */,
 				B97DB290274BB4A400CFA69E /* GHSuperWifiManager.swift in Sources */,
@@ -345,6 +356,7 @@
 				B95381F327393E580030D331 /* ComponentViewController.swift in Sources */,
 				B98CC225273A8BC1006CE53A /* GHRequestManager.swift in Sources */,
 				B96E1DD0274BB6DD004ACF70 /* ComponentCardView.swift in Sources */,
+				B9CDEB25274BDFA600654315 /* SubComponentCardView.swift in Sources */,
 				B9B6198A27328B95003B1219 /* AfterLoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

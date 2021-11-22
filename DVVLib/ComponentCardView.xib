@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -21,20 +21,33 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vodafoneLogo" translatesAutoresizingMaskIntoConstraints="NO" id="C10-0v-xBd">
+                    <rect key="frame" x="10" y="10" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="WKP-aX-PZC"/>
+                        <constraint firstAttribute="width" constant="50" id="jFD-mI-kCV"/>
+                    </constraints>
+                </imageView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <color key="backgroundColor" name="VFGVodafoneRed"/>
+            <color key="backgroundColor" name="VFGVodafonePlatinum"/>
             <constraints>
+                <constraint firstItem="C10-0v-xBd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="DY9-fn-rYX"/>
+                <constraint firstItem="C10-0v-xBd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="HwJ-bf-UQn"/>
                 <constraint firstItem="arP-7G-R3k" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="hUy-tU-leH"/>
                 <constraint firstItem="arP-7G-R3k" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="o0L-Dl-hhi"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="label" destination="arP-7G-R3k" id="14n-Bg-1e3"/>
+            </connections>
             <point key="canvasLocation" x="-78" y="92"/>
         </view>
     </objects>
     <resources>
-        <namedColor name="VFGVodafoneRed">
-            <color red="0.90200001001358032" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <image name="vodafoneLogo" width="86" height="86"/>
+        <namedColor name="VFGVodafonePlatinum">
+            <color red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
