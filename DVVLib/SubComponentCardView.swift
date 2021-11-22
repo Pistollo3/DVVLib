@@ -10,9 +10,7 @@ import RxSwift
 
 class SubComponentCardView: UIView {
     @IBOutlet weak var label: UILabel!
-    @IBOutlet weak var bottomLabel: UILabel!
     @IBOutlet weak var topView: UIView!
-    @IBOutlet weak var bottomView: UIView!
     var disposeBag = DisposeBag()
     
     override func awakeFromNib() {
@@ -20,13 +18,7 @@ class SubComponentCardView: UIView {
         GHSuperWifiManager.shared.subscribeToOnboarding()
             .observe(on: MainScheduler.instance)
             .subscribe(onNext: { [weak self] val in
-                if val == .dashboard {
-                    self?.topView.isHidden = false
-                    self?.bottomView.isHidden = true
-                } else {
-                    self?.topView.isHidden = true
-                    self?.bottomView.isHidden = false
-                }
+                self?.label.text = val == .dashboard ? "Super WiFi" : "You need to perform onboarding first!"
                 self?.isUserInteractionEnabled = val == .dashboard
             }).disposed(by: disposeBag)
     }
