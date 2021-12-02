@@ -30,6 +30,7 @@ class ComponentViewController: UIViewController {
 
     @IBAction private func makeRequest() {
         GHSuperWifiManager.shared.startOnboarding()
+        GHLocalizationManager.setupContentDictionary()
     }
 
 }
