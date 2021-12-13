@@ -24,7 +24,7 @@ This CocoaPods library helps you perform calculation.
   spec.source        = { :git => "https://github.com/Pistollo3/DVVLib.git", :branch => "main", :tag => "#{spec.version}" }
   spec.source_files  = "DVVLib/**/*.{h,m,c,swift,xib,storyboard}"
   
-  #spec.resource_bundles = {
+  spec.resource_bundles = {
             'DVVBundle' => ['DVVLib/Resources/Strings/*.lproj']
         }
   
@@ -35,6 +35,6 @@ This CocoaPods library helps you perform calculation.
   spec.dependency "RxSwift"
   spec.dependency "RxCocoa"
   
-  spec.resources = 'DVVLib/Resources/**/*.{xcassets}', 'DVVLib/Resources/Strings/**/*'
+  spec.resources = 'DVVLib/Resources/**/*.{xcassets, lproj}'
 
 end

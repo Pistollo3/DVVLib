@@ -21,9 +21,9 @@
 		B9636285273134BB009CED2E /* DVVLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9636284273134BB009CED2E /* DVVLib.swift */; };
 		B96E1DD0274BB6DD004ACF70 /* ComponentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96E1DCF274BB6DD004ACF70 /* ComponentCardView.swift */; };
 		B97DB290274BB4A400CFA69E /* GHSuperWifiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97DB28F274BB4A400CFA69E /* GHSuperWifiManager.swift */; };
-		B9839C2A27675DBD00DA8BC4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9839C2827675DBD00DA8BC4 /* Localizable.strings */; };
 		B9839C2E27675DD700DA8BC4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9839C2C27675DD700DA8BC4 /* Localizable.strings */; };
 		B98CC225273A8BC1006CE53A /* GHRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98CC224273A8BC1006CE53A /* GHRequestManager.swift */; };
+		B98D8EBB27679D7E003F0694 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B98D8EB927679D7E003F0694 /* Localizable.strings */; };
 		B9B6198827328B69003B1219 /* AfterLoginVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B6198727328B69003B1219 /* AfterLoginVC.storyboard */; };
 		B9B6198A27328B95003B1219 /* AfterLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B6198927328B95003B1219 /* AfterLoginVC.swift */; };
 		B9C1EC99273BCDEF00293F4E /* GHLocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C1EC98273BCDEF00293F4E /* GHLocalizationManager.swift */; };
@@ -67,9 +67,9 @@
 		B9636284273134BB009CED2E /* DVVLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVVLib.swift; sourceTree = "<group>"; };
 		B96E1DCF274BB6DD004ACF70 /* ComponentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentCardView.swift; sourceTree = "<group>"; };
 		B97DB28F274BB4A400CFA69E /* GHSuperWifiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHSuperWifiManager.swift; sourceTree = "<group>"; };
-		B9839C2927675DBD00DA8BC4 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = Localizable.strings; sourceTree = "<group>"; };
 		B9839C2D27675DD700DA8BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Localizable.strings; sourceTree = "<group>"; };
 		B98CC224273A8BC1006CE53A /* GHRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHRequestManager.swift; sourceTree = "<group>"; };
+		B98D8EBA27679D7E003F0694 /* it-IT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "it-IT"; path = Localizable.strings; sourceTree = "<group>"; };
 		B9B6198727328B69003B1219 /* AfterLoginVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AfterLoginVC.storyboard; sourceTree = "<group>"; };
 		B9B6198927328B95003B1219 /* AfterLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterLoginVC.swift; sourceTree = "<group>"; };
 		B9C1EC98273BCDEF00293F4E /* GHLocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHLocalizationManager.swift; sourceTree = "<group>"; };
@@ -173,18 +173,10 @@
 		B9839C2527675D3600DA8BC4 /* Strings */ = {
 			isa = PBXGroup;
 			children = (
+				B98D8EB827679D6B003F0694 /* it-IT.lproj */,
 				B9839C2B27675DC600DA8BC4 /* Base.lproj */,
-				B9839C2727675D5700DA8BC4 /* it.lproj */,
 			);
 			path = Strings;
-			sourceTree = "<group>";
-		};
-		B9839C2727675D5700DA8BC4 /* it.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				B9839C2827675DBD00DA8BC4 /* Localizable.strings */,
-			);
-			path = it.lproj;
 			sourceTree = "<group>";
 		};
 		B9839C2B27675DC600DA8BC4 /* Base.lproj */ = {
@@ -193,6 +185,14 @@
 				B9839C2C27675DD700DA8BC4 /* Localizable.strings */,
 			);
 			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		B98D8EB827679D6B003F0694 /* it-IT.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				B98D8EB927679D7E003F0694 /* Localizable.strings */,
+			);
+			path = "it-IT.lproj";
 			sourceTree = "<group>";
 		};
 		B9CDEB26274BE50300654315 /* Resources */ = {
@@ -292,7 +292,7 @@
 			knownRegions = (
 				en,
 				Base,
-				it,
+				"it-IT",
 			);
 			mainGroup = B963625E273132BC009CED2E;
 			productRefGroup = B9636269273132BC009CED2E /* Products */;
@@ -313,9 +313,9 @@
 				B95381F427393E580030D331 /* ComponentViewController.xib in Resources */,
 				B9CDEB23274BDAE600654315 /* SubComponentCardView.xib in Resources */,
 				B95381F027393E270030D331 /* ComponentCardView.xib in Resources */,
-				B9839C2A27675DBD00DA8BC4 /* Localizable.strings in Resources */,
 				B9CDEB2A274BF69F00654315 /* SubComponentViewController.xib in Resources */,
 				B9839C2E27675DD700DA8BC4 /* Localizable.strings in Resources */,
+				B98D8EBB27679D7E003F0694 /* Localizable.strings in Resources */,
 				B9B6198827328B69003B1219 /* AfterLoginVC.storyboard in Resources */,
 				B9CDEB28274BE51B00654315 /* Assets.xcassets in Resources */,
 			);
@@ -433,18 +433,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B9839C2827675DBD00DA8BC4 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B9839C2927675DBD00DA8BC4 /* it */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
 		B9839C2C27675DD700DA8BC4 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B9839C2D27675DD700DA8BC4 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		B98D8EB927679D7E003F0694 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B98D8EBA27679D7E003F0694 /* it-IT */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

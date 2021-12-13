@@ -52,6 +52,6 @@ public class GHLocalizationManager {
 
 public extension String {
     var localized: String {
-        return NSLocalizedString(self, tableName: nil, bundle: Bundle.init(for: GHLocalizationManager.self), comment: "")
+        return NSLocalizedString(self, bundle: Bundle(for: GHLocalizationManager.self), comment: "").replacingOccurrences(of: "%s", with: "%@")
     }
 }
