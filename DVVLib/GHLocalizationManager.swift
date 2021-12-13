@@ -7,6 +7,7 @@
 
 import VFGMVA10Foundation
 import UIKit
+import Foundation
 
 //MVA10 ContentManager (Localization) Test class
 
@@ -43,4 +44,14 @@ public class GHLocalizationManager {
         task.resume()
     }
     
+    class func setupStaticContentDictionary() {
+        
+    }
+    
+}
+
+public extension String {
+    var localized: String {
+        return NSLocalizedString(self, comment: "").replacingOccurrences(of: "%s", with: "%@")
+    }
 }

@@ -18,7 +18,7 @@ class ComponentCardView: UIView {
         GHSuperWifiManager.shared.subscribeToOnboarding()
             .observe(on: MainScheduler.instance)
             .subscribe(onNext: { [weak self] value in
-                self?.label.text = value == .onboarding ? "Onboarding not completed!" : "Onboarding complete!"
+                self?.label.text = "custom_dialog_cancel".localized
             }).disposed(by: disposeBag)
     }
 
